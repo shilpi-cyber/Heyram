@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import NavBar from './Components/NavBar'
+import Homepage from './Components/Homepage'
+import Genz from './Components/Genz'
+import AWS from './Components/AWS'
+import Footer from './Components/Footer'
+import ServiceContext from './Context/ServiceContext'
+import Crypto from './Components/Crypto'
+import Agriculture from './Components/Agriculture'
+// import AniCursor from './Components/AniCursor'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+    <BrowserRouter>
+      {/* <div className='container-fluid'> */}
+      {/* <AniCursor/> */}
+      <NavBar />
+      <Routes>
+        <Route path="/home" element={<ServiceContext>
+          <Homepage />
+        </ServiceContext>} />
+        <Route path="/genz" element={<Genz />} />
+        <Route path="/cloud-services" element={<AWS />} />
+        {/* <Route path='/nav' element={<NavBar />} /> */}
+        <Route path='/crypto-mining' element={<Crypto/>} />
+        <Route path='/agriculture' element={<Agriculture/>} />
+        <Route path='*' element={<Navigate to='/home' />} />
+      </Routes>
+      <Footer />
+      {/* </div> */}
+    </BrowserRouter>
+  </>
 }
 
-export default App;
+export default App

@@ -1,0 +1,10 @@
+.navbar{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+}
+.text-white{
+    color: white;
+}

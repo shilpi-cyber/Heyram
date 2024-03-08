@@ -1,0 +1,106 @@
+.card-home {
+    position: relative;
+    top: 40%;
+    /* left: 15%; */
+}
+
+.title {
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+    font-size: 1.3rem;
+
+}
+
+.title-gen {
+    letter-spacing: 5.5px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titl-p {
+    font-size: 16px;
+
+}
+
+.dark {
+    border-radius: 50px;
+}
+
+.dark:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color:aliceblue;
+    background-color: black;
+}
+.down{
+padding: 20px;
+
+}
+.z {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+
+}
+
+.card-dig {
+    position: relative;
+    top: 30%;
+}
+
+
+.digital-row {
+    padding-top: 15%;
+    /* padding-bottom: 5%; */
+    height: 100vh;
+    position: static;
+    height: 100vh;
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore {
+    font-size: 7vh;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.gen-z {
+    position: static;
+    height: 100vh;
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.digital-services {
+    position: static;
+    height: 100vh;
+    /* text-align: center; */
+    padding:30px;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

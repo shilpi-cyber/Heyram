@@ -1,0 +1,18 @@
+.text-start {
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.dark{
+    border:3px;
+    border-radius: 30px;
+}
+#knowmore{
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    border:1px solid rgb(212, 209, 209);
+}
+#knowmore:hover{
+    transform: none;
+}

@@ -1,0 +1,23 @@
+.genz {
+    position: static;
+    padding-top: 9em;
+    /* height: 100vh; */
+    /* height: 100vh ; */
+    /* text-align: center; */
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://i.pinimg.com/564x/77/91/75/7791755bdd57ab830720e0a3f42ee940.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
