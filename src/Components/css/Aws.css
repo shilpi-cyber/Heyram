@@ -1,13 +1,12 @@
 .aws {
     position: static;
-    height: 100vh;
+    height: 70vh;
     /* text-align: center; */
     background:
-        /* top, transparent black, faked with gradient */
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
+        linear-gradient(rgba(224, 109, 109, 0.7),
+            rgba(182, 115, 115, 0.7),rgb(220, 97, 150));
         /* bottom, image */
-        url(https://i.pinimg.com/564x/83/a5/d4/83a5d4d329ace4b153356a1f59ad38ad.jpg);
+        /* url(https://i.pinimg.com/564x/83/a5/d4/83a5d4d329ace4b153356a1f59ad38ad.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +20,33 @@
 }
 .title {
     letter-spacing: 2px;
+    /* font-size: large; */
     font-family: "Poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 800;
     font-style: normal;
 }
+.cards{
+    padding: 68px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards1{
+    padding: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    margin: 30px;
+    height: 35rem;
+    display: flex;
+}
+
+.c2{
+    margin: 30px;
+    height: 35rem;
+    display: flex;
+}
+
+

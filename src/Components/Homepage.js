@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './css/Homepage.css'
 import { serviceContextData } from '../Context/ServiceContext';
 import Hcard from './Hcard';
+// import Digital from './Digital';
 function Homepage() {
     useEffect(() => {
         document.title = "Welcome to HeyRam Infrastructure-Homepage"
@@ -27,18 +28,19 @@ function Homepage() {
                         <div className='card-dig'>
                             <Zoom><h1 className='text-white title-gen display-1'>DIGITAL SERVICES</h1></Zoom>
                             <Zoom><p className='text-white title titl-p p-3'>Start Your Empowering Digital Journeys With Us</p></Zoom>
-                            <Zoom><Link to='/genz'><button className='btn bg-dark dark text-white w-50 mt-5 p-3  ' >DISCOVER NOW</button></Link></Zoom>
+                            <Zoom><Link to='/digital'><button className='btn bg-dark dark text-white w-50  m2-5 p-3  ' >DISCOVER NOW</button></Link></Zoom>
                         </div>
                     </div>
                 </div>
                 <div className='row text-center text-white digital-services pb-5'>
                     <div className='card-d p-5'>
                         <Zoom><div className='explore'>EXPLORE FURTHER</div></Zoom>
-                        <Zoom><div className=''>CONTINUE YOUR JOURNEY</div></Zoom>
+                        <Zoom><div className='down'>CONTINUE YOUR JOURNEY</div></Zoom>
                     </div>{
                         service.data.map((e, i) => {
                             return <div className='col-md-4'>
                                 <Hcard input={e} key={i} />
+                                
                             </div>
                         })
                     }
