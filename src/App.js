@@ -9,7 +9,6 @@ import ServiceContext from './Context/ServiceContext'
 import Crypto from './Components/Crypto'
 import Digital from './Components/Digital'
 import Agriculture from './Components/Agriculture'
-// import AniCursor from './Components/AniCursor'
 
 function App() {
   return <>
