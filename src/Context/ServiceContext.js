@@ -17,7 +17,7 @@ function ServiceContext({children}) {
                 img:"https://c1.wallpaperflare.com/preview/668/480/948/network-server-system-infrastructure.jpg"
             },{
                 name:"AGRICULTURE",
-                description:"Agriculture is essential for providing food, fiber, and other resources for human sustenance and economic growth.This section provides the information on agriculture produces; machineries, research etc.",
+                description:"Agriculture is essential for providing food, fiber, and other resources for human sustenance and economic growth.This section provides the information on agriculture products we sell in our organisation",
                 path:"/agriculture",
                 img:"https://www.lintramax.com/wp-content/uploads/2022/05/24th_may_2022_spotlight.jpg"
             }

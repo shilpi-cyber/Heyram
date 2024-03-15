@@ -8,3 +8,20 @@
 .text-white{
     color: white;
 }
+.text-white:hover{
+  color: rgb(5, 34, 162);
+}
+
+.body-b{
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://i.pinimg.com/564x/d9/ce/ea/d9ceea5f922710eec649a3c835e5a6fa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

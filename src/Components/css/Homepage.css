@@ -30,6 +30,7 @@
 
 .dark:hover {
     cursor: pointer;
+    border: 1px solid white;
     transform: scale(1.1);
     color:aliceblue;
     background-color: black;
@@ -62,7 +63,7 @@ padding: 20px;
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
         /* bottom, image */
-        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        url(https://i.pinimg.com/564x/b4/af/e2/b4afe208f158ec79fb581165acda1fc9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,9 +82,9 @@ padding: 20px;
     background:
         /* top, transparent black, faked with gradient */
         linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
+            rgba(39, 37, 37, 0.7)),
         /* bottom, image */
-        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        url(https://i.pinimg.com/564x/e0/89/7a/e0897ad9340189ca77e21e67cf958030.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +100,7 @@ padding: 20px;
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
         /* bottom, image */
-        url(https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        url(https://i.pinimg.com/564x/66/23/36/662336b2e1a179a4c0083cb945f52ade.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

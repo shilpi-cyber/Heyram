@@ -14,12 +14,6 @@ import Image7 from '../Assets/yun.jpg'
 
 function AWS() {
 
-    // const images = [
-    //     'https://media.istockphoto.com/id/1781150098/photo/artificial-intelligence-ai-development-for-future-of-people-living-digital-data-and-machine.jpg?s=2048x2048&w=is&k=20&c=_TvSvbmt74hXJyC4auAU3DaWaM_H7VeCz7TnX4_ny94=',
-    //     'https://via.placeholder.com/400x200/00ff00/ffffff',
-    //     'https://via.placeholder.com/400x200/0000ff/ffffff',
-    //   ];
-
     useEffect(() => {
         document.title = "Cloud Services"
     }, [])

@@ -9,6 +9,8 @@ import ServiceContext from './Context/ServiceContext'
 import Crypto from './Components/Crypto'
 import Digital from './Components/Digital'
 import Agriculture from './Components/Agriculture'
+import Career from './Components/Career'
+import Jobs from './Components/Jobs'
 
 function App() {
   return <>
@@ -21,10 +23,11 @@ function App() {
         <Route path="/genz" element={<Genz />} />
         <Route path="/digital" element={<Digital />} />
         <Route path="/aws" element={<AWS />} />
-        {/* <Route path='/nav' element={<NavBar />} /> */}
         <Route path='/crypto' element={<Crypto/>} />
         <Route path='/agriculture' element={<Agriculture/>} />
         <Route path='*' element={<Navigate to='/home' />} />
+        <Route path='/career' element={<Career/>}/>
+        <Route path='/jobs' element={<Jobs/>}/>
       </Routes>
       <Footer />
       {/* </div> */}
