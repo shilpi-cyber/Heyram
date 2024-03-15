@@ -1,15 +1,32 @@
 .aws {
     position: static;
-    height: 70vh;
+    /* height: 100vh; */
     /* text-align: center; */
     background:
-        linear-gradient(rgba(224, 109, 109, 0.7),
-            rgba(182, 115, 115, 0.7),rgb(220, 97, 150));
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
         /* bottom, image */
-        /* url(https://i.pinimg.com/564x/83/a5/d4/83a5d4d329ace4b153356a1f59ad38ad.jpg); */
+        url(https://img.freepik.com/free-vector/cloud-network-system-background-vector-social-media-banner_53876-111844.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709942400&semt=ais);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.aws-row{
+    padding-top: 9rem;
+}
+.aws-img1{
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.title {
+    letter-spacing: 2px;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 200;
+    font-style: normal; */
+}
+.awsc-heading{
+    font-size: 1.5rem;
 }
 .aws-row{
     padding-top: 8em;
@@ -21,11 +38,10 @@
 .title {
     letter-spacing: 2px;
     /* font-size: large; */
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
+    /* font-weight: 800;
+    font-style: normal; */
 }
-.cards{
+/* .cards{
     padding: 68px;
     display:flex;
     justify-content: center;
@@ -42,11 +58,4 @@
     height: 35rem;
     display: flex;
 }
-
-.c2{
-    margin: 30px;
-    height: 35rem;
-    display: flex;
-}
-
-
+ */

@@ -1,0 +1,31 @@
+
+
+.form-row{
+    padding-top: 10rem;
+}
+.form-comp{
+    letter-spacing: 1px;
+    /* position: relative; */
+    /* top:; */
+    margin-bottom: 3em;
+}
+.enquiry-card{
+color: white;
+background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-celestial.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.input-box{
+    height: 3rem;
+/* background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(https://digitalsynopsis.com/wp-content/uploads/2017/07/beautiful-color-ui-gradients-backgrounds-celestial.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+}

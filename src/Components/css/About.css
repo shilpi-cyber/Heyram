@@ -1,0 +1,64 @@
+.about{
+    padding-top: 8rem;
+    }
+    .about-row{
+        color: white;
+        background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(https://designmodo.com/wp-content/uploads/2017/08/gradient-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .about-title{
+        border-bottom: 1px solid white;
+        display: inline;
+    }
+    .about-col{
+        position: static;
+        padding: 1rem;
+        background:
+            /* linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)), */
+            url(https://i.pinimg.com/originals/ef/70/85/ef7085be91d78613f0938fee57e45f4a.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+    .about-para{
+        font-size: 1rem;
+    }
+    .about-content{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .cards{
+        background:
+        /* linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), */
+        url(https://i.stack.imgur.com/D6IxN.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    }
+
+    .form-section{
+        padding:3rem;
+        border-radius: 10px;
+        background:
+        /* linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), */
+        url(https://img.freepik.com/premium-photo/customer-support-hotline-contact-us-people-connection-cube-wood-with-email-call-phone-address-chat-message-icons-wooden-block-cube-symbol-telephone-email-address-chat-message_256259-2443.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .input-boxx{
+        height: 3rem;
+    }
+    .contact-head{
+        font-size: larger;
+    }
