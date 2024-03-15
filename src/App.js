@@ -28,6 +28,7 @@ function App() {
         <Route path='*' element={<Navigate to='/home' />} />
         <Route path='/career' element={<Career/>}/>
         <Route path='/jobs' element={<Jobs/>}/>
+
       </Routes>
       <Footer />
       {/* </div> */}

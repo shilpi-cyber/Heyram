@@ -1,0 +1,47 @@
+/* .internship-page{
+    height: 100vh;
+} */
+.internship-row {
+    padding-top: 8rem;
+    height: 100vh;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        /* bottom, image */
+        url(https://png.pngtree.com/background/20210710/original/pngtree-tech-artificial-intelligence-banner-background-picture-image_1051501.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apply-link {
+    color: rgb(96, 215, 116);
+    font-weight: 300;
+}
+
+.intership-card {
+    padding-top: 8rem;
+}
+
+down-link {
+    color: blue;
+}
+
+down-link:hover {
+    cursor: pointer;
+}
+
+
+.backg-row{
+    height: 80vh;
+    background:
+    /* top, transparent black, faked with gradient */
+    linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    /* bottom, image */
+    url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Finternship&psig=AOvVaw3-6i6yFkHu-xdyxoRr3-I0&ust=1710581596745000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMDhlJb79YQDFQAAAAAdAAAAABAF);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

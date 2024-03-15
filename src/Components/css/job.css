@@ -1,11 +1,12 @@
-.open{
+.open {
     position: static;
-    height: 60vh;
+    height: 80vh;
     /* text-align: center; */
     background:
         /* top, transparent black, faked with gradient */
-         linear-gradient(rgba(8, 0, 0, 0.7),
-            rgba(18, 18, 18, 0.7));
+        linear-gradient(rgba(8, 0, 0, 0.7),
+            rgba(18, 18, 18, 0.7)),
+        url(https://payworx.com.au/wp-content/uploads/2023/03/hiring.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +18,19 @@
     font-weight: 450;
     margin-top: 200px;
     font-style: normal;
+}
+
+.heading-job {
+    padding-top: 3rem;
+}
+
+.job-portal, .job-cards {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(8, 0, 0, 0.7),
+            rgba(18, 18, 18, 0.7)),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqzeMJTvGzvF-X-vgXz-dSBYg0xDec-sbNyM6hm6WK4bga5QJpu4Yk170nT6V01H2SINI&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

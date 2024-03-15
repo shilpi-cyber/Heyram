@@ -6,43 +6,39 @@ function JobContext({ children }) {
     let [data, setData] = useState([
         {
             name: "Full Stack Developer",
-            img:"https://cdn-icons-png.flaticon.com/128/3494/3494244.png",
-            description: "With our focused, cost-effective, and outcome-driven scientific SEO strategy, you can outrank your rival and maintain your #1 spot on Google."
+            description: "Design, develop, and maintain both front-end and back-end components of web applications. Collaborate with cross-functional teams to understand project..."
         },
         {
-            name: "Analyst",
-            img:"https://cdn-icons-png.flaticon.com/128/1968/1968666.png",
-            description: "Use social media to transform your brand tales into commercial success. Laser targeting, closing sales, clicks to conversions, and much more."
+            name: "Data Analyst",
+            description: "Analyze large datasets to extract meaningful insights and trends. Collaborate with cross-functional teams to identify business needs and translate them into..."
         },
         {
             name: "Software Developer",
-            img:"https://cdn-icons-png.flaticon.com/128/8164/8164154.png",
-            description: "Create content that helps people relate to your brand. There are emotional triggers in every piece of content that drive people to take driving decisions."
+            description: "We are looking for experienced software developers to join our team and help us build innovative software solutions for our clients. If you have a passion for coding and a strong background in software development, we want to hear from you!..."
         },
         {
             name: "Digital Marketer",
-            img:"https://cdn-icons-png.flaticon.com/128/5203/5203961.png",
-            description: "Unlock the power of every click. Our expert team crafts high-performing ads and optimizes campaigns to their full potential, driving maximum conversions"
+            description: "Manage Google Adwords Campaigns to improve Return on Investment and generate reports Develop performance metrics to provide recommendations and contin..."
         },
         {
             name: "Intern Junior Full Stack Developer",
-            img:"https://cdn-icons-png.flaticon.com/128/944/944948.png",
-            description: "Want to see your brand and revenue take off? Let our marketing experts help. We'll build you a loyal fan base, craft emails that resonate, and get you to your ROI goals faster"
+            description: "Assist in designing, coding, and debugging web applications in a team environment. Collaborate with front-end developers to integrate user-facing elements using server-side logic...."
         },
         {
             name: "Data Scientist",
-            img:"https://cdn-icons-png.flaticon.com/128/9431/9431856.png",
-            description: "Unlock your business potential with our WhatsApp Marketing solutions. Reach your audience directly, engage seamlessly, and drive conversions effortlessly. Elevate your marketing strategy today!"
+            description: "We are seeking talented data scientists to help us unlock the power of data and drive actionable insights for our clients. If you have a knack for analyzing complex data sets and a passion for data-driven decision-making, we'd love to talk to you!..."
         },
         {
             name: "Consultant",
-            img:"https://cdn-icons-png.flaticon.com/128/7991/7991055.png",
-            description: "Cutting-edge web and mobile development services. We create responsive, user-friendly applications tailored to your needs. Get in touch for seamless digital experiences."
+            description: "Revolves around providing expert advice, guidance, and solutions to clients in various domains. Depending on your specialization, you may offer consultancy services..."
         },
         {
             name: "Support Engineer",
-            img:"https://cdn-icons-png.flaticon.com/128/7991/7991055.png",
-            description: "Cutting-edge web and mobile development services. We create responsive, user-friendly applications tailored to your needs. Get in touch for seamless digital experiences."
+            description: "Provide voice-based support to international/domestic customers over the phone (Inbound and Outbound). Build a rapport with customers with clear and..."
+        },
+        {
+            name: "UI/UX Designer",
+            description: "We are searching for creative UI/UX designers to help us create intuitive and user-friendly interfaces for our software applications. If you have a keen eye for design and a passion for creating exceptional user experiences, we want to see your portfolio!..."
         }
     ])
     return <>
