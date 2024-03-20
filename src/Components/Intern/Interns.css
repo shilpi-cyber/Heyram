@@ -1,0 +1,20 @@
+.intership-card{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)),
+    url(https://designmodo.com/wp-content/uploads/2017/08/gradient-1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.ai-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/ai.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

@@ -33,7 +33,7 @@ function Homepage() {
                         <div className='card-dig'>
                             <Zoom><h1 className='text-white title-gen display-1'>DIGITAL SERVICES</h1></Zoom>
                             <Zoom><p className='text-white title-p p-3'>Start Your Empowering Digital Journeys With Us</p></Zoom>
-                            <Zoom><Link to='/digital-service'><button className='btn btn-light p-3 m-4  mt-5' >DISCOVER NOW &nbsp; <i class="fa-solid  fa-arrow-right-long"></i></button></Link></Zoom>
+                            <Zoom><Link to='/digital-services'><button className='btn btn-light p-3 m-4  mt-5' >DISCOVER NOW &nbsp; <i class="fa-solid  fa-arrow-right-long"></i></button></Link></Zoom>
                         </div>
                     </div>
                 </div>

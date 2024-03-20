@@ -12,6 +12,7 @@ import Agriculture from './Components/Agriculture'
 import Career from './Components/Career'
 import Jobs from './Components/Jobs'
 import AD from './Components/Intern/AD'
+import Login from './Components/Form/Login'
 function App() {
   return <>
     <BrowserRouter>
@@ -29,6 +30,7 @@ function App() {
         <Route path='/career' element={<Career/>}/>
         <Route path='/jobs' element={<Jobs/>}/>
         <Route path='/app-developer' element={<AD/>}/>
+        <Route path='/login' element={<Login/>}/>
 
       </Routes>
       <Footer />
