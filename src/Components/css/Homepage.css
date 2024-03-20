@@ -84,7 +84,7 @@ padding: 20px;
         linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(39, 37, 37, 0.7)),
         /* bottom, image */
-        url(https://i.pinimg.com/564x/e0/89/7a/e0897ad9340189ca77e21e67cf958030.jpg);
+        url("https://source.unsplash.com/random/?Tech/");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,20 +106,21 @@ padding: 20px;
     background-size: cover;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     width: 10px;
     /* width of the entire scrollbar */
-}
+/* }
+*/
 
-
+/*
 
 body::-webkit-scrollbar-thumb {
     border-radius: 20px;
     /* roundness of the scroll thumb */
-    border: 3px solid rgb(84, 75, 59);
+    /* border: 3px solid rgb(84, 75, 59); */
     /* creates padding around scroll thumb */
-}
-
+/* }
+ */
 
 /* https://i.pinimg.com/564x/e0/89/7a/e0897ad9340189ca77e21e67cf958030.jpg
 https://i.pinimg.com/564x/66/23/36/662336b2e1a179a4c0083cb945f52ade.jpg

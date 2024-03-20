@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from 'react';
 import './Interns.css'
-import wbI from '../../Assets/ad1.png'
+import wbI from '../../Assets/ad4.jpg'
 import SK from '../../Assets/ad2.jpg'
 import EC from '../../Assets/ad3.jpeg'
 
@@ -13,7 +13,7 @@ function AD() {
     return <>
         <div className='container-fluid'>
             <div className='row intership-card'>
-                <div className='col-md-12 ai-banner d-flex justify-content-center'>
+                <div className='col-md-12 ad-banner d-flex justify-content-center'>
                 </div>
             </div>
             <div className='row pt-2 pb-2'>

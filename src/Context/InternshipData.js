@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export const InternData = React.createContext()
-function IntershipData({children}) {
+function InternshipData({children}) {
     let [data,setData] = useState(
         [
             {
@@ -43,4 +43,4 @@ function IntershipData({children}) {
     </>
 }
 
-export default IntershipData
+export default InternshipData

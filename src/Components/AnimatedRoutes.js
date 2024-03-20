@@ -15,9 +15,9 @@ import About from './About'
 import Career from './Career'
 import Jobs from './Jobs'
 import JobContext from '../Context/JobContext'
-import Intership from './Intership'
-import IntershipData from '../Context/IntershipData'
-import Wd from './Intern/WD'
+import Internship from './Internship'
+import InternshipData from '../Context/InternshipData'
+import WD from './Intern/WD'
 import FA from './Intern/FA'
 import AD from './Intern/AD'
 import CS from './Intern/CS'
@@ -43,11 +43,11 @@ function AnimatedRoutes() {
                     </JobContext>
                 } />
                 <Route path='/internship' element={
-                    <IntershipData>
-                        <Intership />
-                    </IntershipData>
+                    <InternshipData>
+                        <Internship />
+                    </InternshipData>
                 } />
-                <Route path='/internship/web-developer-intern' element={<Wd />} />
+                <Route path='/internship/web-developer-intern' element={<WD />} />
                 <Route path='/internship/app-developer-intern' element={<AD />} />
                 <Route path='/internship/ai-developer-intern' element={<AI />} />
                 <Route path='/internship/cloud-intern' element={<CS />} />

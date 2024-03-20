@@ -18,3 +18,54 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.dm-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/dm1.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.cs-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/cs1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.fa-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/fam.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.wd-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/wd1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.ad-banner{
+    height: 70vh;
+    background:
+    /* linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)), */
+    url('/src/Assets/ad1.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
