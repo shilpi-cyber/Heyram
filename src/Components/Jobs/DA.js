@@ -1,5 +1,5 @@
 import React from 'react'
-import './Jobda.das'
+// import './Jobda.das'
 
 
 function DA() {

@@ -15,6 +15,7 @@ import About from './About'
 import Career from './Career'
 import Jobs from './Jobs'
 import JobContext from '../Context/JobContext'
+
 import Internship from './Internship'
 import InternshipData from '../Context/InternshipData'
 import WD from './Intern/WD'
@@ -23,6 +24,8 @@ import AD from './Intern/AD'
 import CS from './Intern/CS'
 import AI from './Intern/AI'
 import DM from './Intern/DM'
+import CJ from './Jobs/CJ'
+import DA from './Jobs/DA'
 
 function AnimatedRoutes() {
     const location = useLocation()
@@ -47,6 +50,10 @@ function AnimatedRoutes() {
                         <Internship />
                     </InternshipData>
                 } />
+                <Route path='/jobs/cj' element={<CJ />} />
+                <Route path='/jobs/da' element={<DA />} />
+
+
                 <Route path='/internship/web-developer-intern' element={<WD />} />
                 <Route path='/internship/app-developer-intern' element={<AD />} />
                 <Route path='/internship/ai-developer-intern' element={<AI />} />

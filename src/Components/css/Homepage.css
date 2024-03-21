@@ -93,8 +93,8 @@ padding: 20px;
 .digital-services {
     position: static;
     height: 100vh;
-    /* text-align: center; */
-    padding:30px;
+    text-align: center;
+    /* padding:30px; */
     background:
         /* top, transparent black, faked with gradient */
         linear-gradient(rgba(0, 0, 0, 0.7),

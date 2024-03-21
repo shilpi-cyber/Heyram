@@ -6,11 +6,14 @@ function JobContext({ children }) {
     let [data, setData] = useState([
         {
             name: "Full Stack Developer",
-            description: "Design, develop, and maintain both front-end and back-end components of web applications. Collaborate with cross-functional teams to understand project..."
+            description: "Design, develop, and maintain both front-end and back-end components of web applications. Collaborate with cross-functional teams to understand project...",
+            path:"/jobs/cj"
+
         },
         {
             name: "Data Analyst",
-            description: "Analyze large datasets to extract meaningful insights and trends. Collaborate with cross-functional teams to identify business needs and translate them into..."
+            description: "Analyze large datasets to extract meaningful insights and trends. Collaborate with cross-functional teams to identify business needs and translate them into...",
+            path:"/jobs/da"
         },
         {
             name: "Software Developer",
@@ -26,7 +29,8 @@ function JobContext({ children }) {
         },
         {
             name: "Data Scientist",
-            description: "We are seeking talented data scientists to help us unlock the power of data and drive actionable insights for our clients. If you have a knack for analyzing complex data sets and a passion for data-driven decision-making, we'd love to talk to you!..."
+            description: "We are seeking talented data scientists to help us unlock the power of data and drive actionable insights for our clients. If you have a knack for analyzing complex data sets and a passion for data-driven decision-making, we'd love to talk to you!...",
+            path:"/jobs/cj"
         },
         {
             name: "Consultant",

@@ -5,13 +5,15 @@ import Card from "react-bootstrap/Card";
 function JCards({input}) {
   return (
     <>
-      <Card className="mt-3 p-2 mb-3" style={{height:"15rem"}}>
+      <Card className='text-white  m-1' style={{ "backgroundColor": "black", "height": "13rem" }} >
         <Card.Body>
-          <Card.Title>{input.name}</Card.Title>
+          <Card.Link style={{"textDecoration":"none"}} href={input.path}><Card.Title>{input.name}</Card.Title></Card.Link>
           <Card.Text>
             {input.description}
           </Card.Text>
-          <Button variant="primary" >View & Apply</Button>
+          <div className=" d-flex justify-content-end" >
+            Full Time
+          </div>
         </Card.Body>
       </Card>
     </>
