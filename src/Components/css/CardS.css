@@ -7,16 +7,6 @@
     border:3px;
     border-radius: 30px;
 }
-#knowmore{
-    margin: auto;
-    justify-items: center;
-    align-items: center;
-    border:1px solid rgb(255, 255, 255);
-}
-#knowmore:hover{
-    transform: none;
-    border: 2px solid rgb(255, 255, 255);
-}
 .body-c{
     background:
     /* top, transparent black, faked with gradient */

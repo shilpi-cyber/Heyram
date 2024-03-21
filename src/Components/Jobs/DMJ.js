@@ -1,6 +1,5 @@
 import React from 'react'
-import './JobFs.css'
-
+// import './JobFs.css'
 
 function DMJ() {
     return <>
@@ -11,7 +10,7 @@ function DMJ() {
                         HeyRam Infrastructure | Full Time
                     </div>
                     <div className='h1 pt-3 pb-3'>
-                        Full Stack Developer
+                        Digital Marketing
                     </div>
                     <div className='d-flex justify-content-center buttons'>
                         <div style={{ fontWeight: "350" }} >
@@ -32,65 +31,53 @@ function DMJ() {
                     <div className='h1 '>
                         Job Description
                     </div> <br />
-                    <p className='pe-5 fs-5'><b className='fs-5'>Role Description:</b> We seek a talented and enthusiastic MERN Stack Developer to join our team. This
-                        is a full-time on-site role where you will be responsible for developing, implementing, and
-                        maintaining innovative software solutions for our clients. You will work closely with our
-                        development team to deliver high-quality code and ensure client satisfaction.  </p>
-                    <div className='roles-respond'>
-                        <div className='h4'>
-                            Responsibilities:
-                        </div>
-                        <ul>
-                            <li className='fs-5'>
-                                Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React,
-                                Node.js)
-                            </li>
-                            <li className='fs-5'>
-                                Collaborate with the design team to implement user-friendly interfaces
-                            </li>
-                            <li className='fs-5'>
-                                Write clean, maintainable, and efficient code
-                            </li>
-                            <li className='fs-5'>
-                                Troubleshoot and debug applications
-                            </li>
-                            <li className='fs-5'>
-                                Perform code reviews and provide feedback to other developers
-                            </li>
-                            <li className='fs-5'>
-                                Stay up-to-date with emerging technologies and best practices
-                            </li>
-                        </ul>
-                    </div>
+                    <p className='pe-5 fs-5'><b className='fs-5'>Role Description:</b>This is a full-time on-site role for a Digital Marketing Executive. The role involves developing,
+                        implementing, and managing digital marketing campaigns for our clients. Responsibilities include
+                        creating compelling content for websites and social media, overseeing social media accounts,
+                        analyzing web traffic and user behavior, and optimizing campaigns to increase conversions. The
+                        Digital Marketing Executive will work closely with the marketing team and report to the Marketing
+                        Manager.</p>
+
                     <div className='roles-respond'>
                         <div className='h4'>
                             Qualifications:
                         </div>
                         <ul>
                             <li className='fs-5'>
-                                Bachelor's degree in Computer Science or a related field
+                                Marketing and Communication skills
                             </li>
                             <li className='fs-5'>
-                                Proven experience as a MERN Stack Developer or similar role minimum experience of 2 years
+                                Social Media Marketing experience
                             </li>
                             <li className='fs-5'>
-                                Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object
-                                model
+                                Web Content Writing skills
                             </li>
                             <li className='fs-5'>
-                                Experience with React.js and Node.js
+                                Web Analytics experience
                             </li>
                             <li className='fs-5'>
-                                Familiarity with MongoDB and database design principles
+                                Familiarity with SEO best practices
                             </li>
                             <li className='fs-5'>
-                                Excellent problem-solving skills
+                                Strong analytical and problem-solving skills
                             </li>
                             <li className='fs-5'>
-                                Ability to work independently and in a team environment
+                                Bachelor's degree in Marketing, Communications, or related field
                             </li>
                             <li className='fs-5'>
-                                Strong communication skills
+                                Experience with Google Analytics and Google Ads is a plus
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="roles-respond">
+                        <div className="h4">Salary</div>
+                        <ul>
+                            <li className="cs-5">Salary will be 20k to 40k</li>
+                            <li className="cs-5">
+                                If you are selected, you will have a 1-month training period.
+                                In that training period, salary will not be provided; after
+                                that, you will be selected based on your performance. After
+                                that, six months contract.
                             </li>
                         </ul>
                     </div>
@@ -119,6 +106,7 @@ function DMJ() {
                 </div>
             </div>
         </div>
+
     </>
 }
 

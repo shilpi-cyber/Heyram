@@ -70,7 +70,8 @@ padding: 20px;
 }
 
 .explore {
-    font-size: 7vh;
+    margin-top:50px;
+    font-size: 6vh;
     font-weight: 700;
     letter-spacing: 2px;
 }
@@ -104,6 +105,11 @@ padding: 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.crd:hover{
+box-shadow: 2px 2px blue;
+transform: scale(1.2);
 }
 
 /* body::-webkit-scrollbar {

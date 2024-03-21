@@ -26,6 +26,9 @@ import AI from './Intern/AI'
 import DM from './Intern/DM'
 import CJ from './Jobs/CJ'
 import DA from './Jobs/DA'
+import DMJ from './Jobs/DMJ'
+import FSD from './Jobs/FSD'
+import UIUX from './Jobs/UIUX'
 
 function AnimatedRoutes() {
     const location = useLocation()
@@ -52,6 +55,9 @@ function AnimatedRoutes() {
                 } />
                 <Route path='/jobs/cj' element={<CJ />} />
                 <Route path='/jobs/da' element={<DA />} />
+                <Route path='/jobs/dmj' element={<DA />} />
+                <Route path='/jobs/fsd' element={<DA />} />
+                <Route path='/jobs/uiux' element={<DA />} />
 
 
                 <Route path='/internship/web-developer-intern' element={<WD />} />

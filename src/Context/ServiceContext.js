@@ -9,17 +9,17 @@ function ServiceContext({children}) {
                 name:"CRYPTO MINING",
                 description:"Unlock Greater Financial Freedom. Join the Revolution for a Sustainable and Inclusive Financial Future, Powered by Blockchain Technology.",
                 path:"/crypto",
-                img:"https://t3.ftcdn.net/jpg/01/96/96/86/360_F_196968684_zp8obttcJzlY4tWhFHzDGOTbPkdY0Q3p.jpg"
+                img:"https://i.pinimg.com/736x/24/9c/74/249c74d19f7ca86bd77503ed1eefcd99.jpg"
             },{
                 name:"CLOUD SERVICES",
                 description:"Cloud Services Provide on-demand Access to Computing Resources, including Storage, Processing Power, and Applications, Over the Internet.Experience the Power Of Next-Generation Cloud Solutions",
                 path:"/aws",
-                img:"https://c1.wallpaperflare.com/preview/668/480/948/network-server-system-infrastructure.jpg"
+                img:"https://i.pinimg.com/564x/d6/ae/d4/d6aed43aa34a19e8e37eb6e6c0cbf204.jpg"
             },{
                 name:"AGRICULTURE",
                 description:"Agriculture is essential for providing food, fiber, and other resources for human sustenance and economic growth.This section provides the information on agriculture products we sell in our organisation",
                 path:"/agriculture",
-                img:"https://www.lintramax.com/wp-content/uploads/2022/05/24th_may_2022_spotlight.jpg"
+                img:"https://i.pinimg.com/564x/d0/e1/c0/d0e1c096805c29de644f0a9abc9759cf.jpg"
             }
         ]
     )

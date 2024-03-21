@@ -11,7 +11,7 @@ function UIUX() {
                         HeyRam Infrastructure | Full Time
                     </div>
                     <div className='h1 pt-3 pb-3'>
-                        Full Stack Developer
+                        UIUX
                     </div>
                     <div className='d-flex justify-content-center buttons'>
                         <div style={{ fontWeight: "350" }} >
@@ -32,34 +32,31 @@ function UIUX() {
                     <div className='h1 '>
                         Job Description
                     </div> <br />
-                    <p className='pe-5 fs-5'><b className='fs-5'>Role Description:</b> We seek a talented and enthusiastic MERN Stack Developer to join our team. This
-                        is a full-time on-site role where you will be responsible for developing, implementing, and
-                        maintaining innovative software solutions for our clients. You will work closely with our
-                        development team to deliver high-quality code and ensure client satisfaction.  </p>
+                    <p className='pe-5 fs-5'><b className='fs-5'>Role Description:</b>We are seeking a talented UI/UX Designer to join our team. This is a full-time on-site role where you
+                        will be responsible for designing user interfaces and experiences for our clients' digital products. You
+                        will work closely with our development and marketing teams to create visually appealing and
+                        userfriendly interfaces that enhance user experience and drive business growth.</p>
                     <div className='roles-respond'>
                         <div className='h4'>
                             Responsibilities:
                         </div>
                         <ul>
                             <li className='fs-5'>
-                                Develop and maintain web applications using the MERN stack (MongoDB, Express.js, React,
-                                Node.js)
+                                Create wireframes, mockups, and prototypes for digital products
                             </li>
                             <li className='fs-5'>
-                                Collaborate with the design team to implement user-friendly interfaces
+                                Design user interfaces that are intuitive, easy to use, and visually appealing
                             </li>
                             <li className='fs-5'>
-                                Write clean, maintainable, and efficient code
+                                Collaborate with cross-functional teams to define design requirements and ensure consistency across products
                             </li>
                             <li className='fs-5'>
-                                Troubleshoot and debug applications
+                                Conduct user research and usability testing to gather feedback and iterate on designs
                             </li>
                             <li className='fs-5'>
-                                Perform code reviews and provide feedback to other developers
+                                Stay up-to-date with industry trends and best practices to continuously improve our design processes
                             </li>
-                            <li className='fs-5'>
-                                Stay up-to-date with emerging technologies and best practices
-                            </li>
+
                         </ul>
                     </div>
                     <div className='roles-respond'>
@@ -68,29 +65,35 @@ function UIUX() {
                         </div>
                         <ul>
                             <li className='fs-5'>
-                                Bachelor's degree in Computer Science or a related field
+                                Freshers and Proven experience as a UI/UX Designer or similar role
+
                             </li>
                             <li className='fs-5'>
-                                Proven experience as a MERN Stack Developer or similar role minimum experience of 2 years
+                                Portfolio of design projects that demonstrate your skills and creative thinking
+
                             </li>
                             <li className='fs-5'>
-                                Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object
-                                model
+                                Proficiency in design tools such as Adobe XD, Sketch, or Figma
                             </li>
                             <li className='fs-5'>
-                                Experience with React.js and Node.js
+                                Strong understanding of user-centered design principles and best practices
+
                             </li>
                             <li className='fs-5'>
-                                Familiarity with MongoDB and database design principles
+                                Excellent communication and collaboration skills
                             </li>
-                            <li className='fs-5'>
-                                Excellent problem-solving skills
-                            </li>
-                            <li className='fs-5'>
-                                Ability to work independently and in a team environment
-                            </li>
-                            <li className='fs-5'>
-                                Strong communication skills
+
+                        </ul>
+                    </div>
+                    <div className="roles-respond">
+                        <div className="h4">Salary</div>
+                        <ul>
+                            <li className="da-5">Salary will be 20k to 40k</li>
+                            <li className="da-5">
+                                If you are selected, you will have a 1-month training period.
+                                In that training period, salary will not be provided; after
+                                that, you will be selected based on your performance. After
+                                that, six months contract.
                             </li>
                         </ul>
                     </div>

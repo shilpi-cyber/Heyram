@@ -46,7 +46,7 @@ function Homepage() {
                     {
                         service.data.map((e, i) => {
                             return <div className='col-md-4' data-aos='fade-up' data-aos-duration="1000" >
-                                <Hcard input={e} key={i} />
+                                <Hcard className='crd' input={e} key={i} />
                             </div>
                         })
                     }
