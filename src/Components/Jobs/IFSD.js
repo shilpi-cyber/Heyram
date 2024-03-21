@@ -11,7 +11,7 @@ function IFSD() {
                         HeyRam Infrastructure | Full Time
                     </div>
                     <div className='h1 pt-3 pb-3'>
-                        Full Stack Developer
+                       Intern Full Stack Developer
                     </div>
                     <div className='d-flex justify-content-center buttons'>
                         <div style={{ fontWeight: "350" }} >

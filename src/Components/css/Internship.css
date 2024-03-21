@@ -1,13 +1,12 @@
+/* .internship-page{
+    height: 100vh;
+} */
 
 .apply-link {
     color: rgb(96, 215, 116);
     font-weight: 300;
 }
 
-.intership-card {
-    color: black;
-    padding-top: 8rem;
-}
 
 down-link {
     color: blue;
@@ -41,5 +40,3 @@ down-link:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-

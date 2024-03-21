@@ -5,14 +5,17 @@
     background:
         /* top, transparent black, faked with gradient */
         linear-gradient(rgba(8, 0, 0, 0.7),
-            rgba(18, 18, 18, 0.7)),
-        url(https://payworx.com.au/wp-content/uploads/2023/03/hiring.jpg);
+            rgba(48, 46, 46, 0.7)),
+        url(https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+.open-title{
+margin-top: 13rem;
+font-weight: 350;
+}
 .title-open {
     letter-spacing: 5.5px;
     font-weight: 450;
