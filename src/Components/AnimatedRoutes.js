@@ -55,9 +55,9 @@ function AnimatedRoutes() {
                 } />
                 <Route path='/jobs/cj' element={<CJ />} />
                 <Route path='/jobs/da' element={<DA />} />
-                <Route path='/jobs/dmj' element={<DA />} />
-                <Route path='/jobs/fsd' element={<DA />} />
-                <Route path='/jobs/uiux' element={<DA />} />
+                <Route path='/jobs/dmj' element={<DMJ/>} />
+                <Route path='/jobs/fsd' element={<FSD />} />
+                <Route path='/jobs/uiux' element={<UIUX />} />
 
 
                 <Route path='/internship/web-developer-intern' element={<WD />} />
