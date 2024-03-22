@@ -40,7 +40,7 @@ function AnimatedRoutes() {
                     <Homepage />
                 </ServiceContext>} />
                 <Route path="/genz" element={<Genz />} />
-                <Route path="/cloud-services" element={<AWS />} />
+                <Route path="/aws" element={<AWS />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/career' element={<Career />} />
                 <Route path='/jobs' element={
@@ -72,7 +72,7 @@ function AnimatedRoutes() {
                     </DigitalServiceData>
                 } />
                 {/* <Route path='/nav' element={<NavBar />} /> */}
-                <Route path='/crypto-mining' element={<Crypto />} />
+                <Route path='/crypto' element={<Crypto />} />
                 <Route path='/enquiry-card' element={<ContactCard />} />
                 <Route path='/agriculture' element={
                     <AgricultureData>

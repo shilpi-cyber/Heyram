@@ -3,16 +3,20 @@
 } */
 
 .apply-link {
-    color: rgb(96, 215, 116);
+    color: rgb(185, 167, 228);
     font-weight: 300;
 }
-
-
-down-link {
-    color: blue;
+.apply-link:hover {
+    color: rgb(2, 0, 8);
 }
 
-down-link:hover {
+
+.down-link {
+    color: rgb(213, 216, 18);
+}
+
+.down-link:hover {
+    color: darkorange;
     cursor: pointer;
 }
 

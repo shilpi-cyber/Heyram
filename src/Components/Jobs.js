@@ -32,7 +32,7 @@ function Jobs() {
           {Data.data.map((e, i) => {
             return (
               <div className="col-md-4">
-                <JCards input={e} key={i} />
+                <JCards className='jbs' input={e} key={i} />
               </div>
             );
           })}

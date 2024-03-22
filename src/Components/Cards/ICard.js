@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 function ICard(props) {
     return <>
-        <Card className='text-white h-100' style={{"backgroundColor":"black"}} >
+        <Card className='text-white h-100' style={{"background":"url(https://i.pinimg.com/564x/e8/bb/0f/e8bb0f20c7ca4a3724bfee857a540902.jpg)","border":"2px solid cyan"}} >
             <Card.Body className=''>
                 <Card.Title>{props.input.name}</Card.Title>
                 <Card.Text>

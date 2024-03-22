@@ -39,7 +39,7 @@ function Internship() {
                 {
                     Data.data.map((e, i) => {
                         return <div className='col-md-4 p-1' data-aos="fade-down" data-aos-duration="1500">
-                            <ICard input={e} key={i} />
+                            <ICard className='inter' input={e} key={i} />
                         </div>
                     })
                 }

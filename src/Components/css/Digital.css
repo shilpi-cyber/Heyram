@@ -1,5 +1,67 @@
-.text-center {
+.digital-para{
+    font-size: larger;
+}
+.digital-heading{
+    padding-top: 8rem;
+
+}
+.digi-card{
+    position: static;
+    background:
+        /* linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), */
+        url(https://t4.ftcdn.net/jpg/01/66/47/83/360_F_166478311_ygEYzLwkVmG8ElI5ywm3fLOSKPbpuvwj.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.btn-light{
+    border-radius: 50px;
+    border: 1px solid black;
+    transition: color,0.5s;
+
+}
+.btn-light:hover{
     background-color: black;
     color: white;
-    
+    transition: color,0.5s;
+}
+.digital-page{
+    color: white;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThD4ybAgEw2pue3fVXmlzJXLn2jUxZFrnuBetwBaKMrmYftMf4IBaHpyHWB_ZqajRw92I&usqp=CAU);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.digital-para-head{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(    https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gif{
+    border-radius: 10px;
+    border: 5px solid rgb(47, 255, 172);
+}
+.t-rformula{
+border-radius: 20px;
+margin-bottom: 2rem;
+}
+.fa-arrow-left{
+    font-size: 2rem;
+    margin: 1rem;
+}
+.enquiry-btn{
+    width: 20rem;
 }

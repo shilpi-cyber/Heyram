@@ -34,8 +34,8 @@ function NavBar() {
                                 <Zoom><Nav.Link className='links' href='/home' >HOME</Nav.Link></Zoom>
                                 <Zoom><Nav.Link className='links' href="/genz">GEN-Z AI</Nav.Link></Zoom>
                                 <Zoom><Nav.Link className='links' href="/digital-service">DIGITAL SERVICES</Nav.Link></Zoom>
-                                <Zoom><Nav.Link className='links' href="/cloud-services">CLOUD SERVICES</Nav.Link></Zoom>
-                                <Zoom><Nav.Link className='links' href="/crypto-mining">CRYPTO MINING</Nav.Link></Zoom>
+                                <Zoom><Nav.Link className='links' href="/aws">CLOUD SERVICES</Nav.Link></Zoom>
+                                <Zoom><Nav.Link className='links' href="/crypto">CRYPTO MINING</Nav.Link></Zoom>
                                 <Zoom><Nav.Link className='links' href="/agriculture">AGRICULTURE </Nav.Link></Zoom>
                                 <Zoom><Nav.Link className='links' href="/career">CAREER </Nav.Link></Zoom>
                                 <Zoom><Nav.Link className='links' href="/about">ABOUT </Nav.Link></Zoom>
