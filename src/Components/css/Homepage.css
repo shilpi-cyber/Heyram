@@ -93,13 +93,13 @@ padding: 20px;
 
 .digital-services {
     position: static;
-    height: 100vh;
+    height: max-content;
     text-align: center;
     /* padding:30px; */
     background:
         /* top, transparent black, faked with gradient */
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)),
+        linear-gradient(rgba(9, 1, 30, 0.7),
+            rgba(1, 0, 21, 0.7)),
         /* bottom, image */
         url(https://i.pinimg.com/564x/66/23/36/662336b2e1a179a4c0083cb945f52ade.jpg);
     background-position: center;
