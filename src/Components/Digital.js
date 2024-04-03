@@ -63,12 +63,12 @@ function Digital() {
                                 All we care about is obtaining</p></Zoom>
                         </div>
                         <div className='col-md-4 text-center'>
-                            <Zoom><img className='w-75 gif mb-5' src="https://cdn-jokon.nitrocdn.com/AwoEWBPBIgGShARSNTzFxrQfWkDFHrAw/assets/images/optimized/rev-7597a79/www.rankraze.com/wp-content/uploads/2019/11/videos.gif" alt="image1" /></Zoom>
+                            <Zoom><img className='w-75 gif mb-5' src="https://i.pinimg.com/564x/6b/55/5a/6b555a318eceecc561633ee56b80fc54.jpg" alt="image1" /></Zoom>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-md-6'>
-                            <Zoom><img className='w-100 t-rformula' src="https://cdn-jokon.nitrocdn.com/AwoEWBPBIgGShARSNTzFxrQfWkDFHrAw/assets/images/optimized/rev-7597a79/www.rankraze.com/wp-content/uploads/2023/10/REDEFINE-RELIABLE-REVOLUTIONIZE-01-scaled-e1708677948283-2048x1104.jpg" alt="3R formula" /></Zoom>
+                            <Zoom><img className='w-100 t-rformula' src="https://i.pinimg.com/564x/53/cd/fd/53cdfd21500c75495b7d1cc7ab7b9327.jpg" alt="3R formula" /></Zoom>
                         </div>
                         <div className='col-md-6 mb-5 d-flex justify-content-center align-items-center'>
                             <Zoom><div className='display-5'><i className="fa-solid fa-arrow-left"></i>OUR 3R FORMULA</div></Zoom>
