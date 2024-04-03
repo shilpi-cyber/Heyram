@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 function Homepage() {
     useEffect(() => {
-        document.title = "Welcome to HeyRam Infrastructure-Homepage"
+        document.title = "By Shilpi Kaushik"
         window.scrollTo(0, 0)
     }, [])
     let service = useContext(serviceContextData)
